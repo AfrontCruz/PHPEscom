@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Formulario</title>
   </head>
   <body>
@@ -15,29 +15,44 @@
         <a class="navbar-brand" href="#"><span class="font-weight-bold">PHP</span>escom</a>
     </nav>
 
-    <div class="container mt-5">
-        <form action="action.php" method="POST">
+    <div class="container d-flex justify-content-center mb-5 mt-5">      
+        <form action="action.php" class="container-form" method="POST">
             <div class="form-group">
                 <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" class="form-control">
+                <input required type="text" id="nombre" name="nombre" class="form-control">
             </div>
             <div class="form-group">
                 <label for="paterno">Apellido paterno:</label>
-                <input type="text" id="paterno" name="paterno" class="form-control">
+                <input required type="text" id="paterno" name="paterno" class="form-control">
             </div>
             <div class="form-group">
-                <label for="nacimiento">Fecha de nacimiento:</label>
-                <input type="date" id="nacimiento" name="nacimiento" class="form-control">
+                <label for="paterno">Apellido materno:</label>
+                <input required type="text" id="materno" name="materno" class="form-control">
             </div>
-            <!-- 
-              Apellido materno
-              Fecha de nacimiento
-              CURP
-              Sexo
-              Password
-            -->
+            <div class="form-group">
+              <label for="nacimiento">Fecha de nacimiento:</label>
+              <input required type="date" id="nacimiento" name="nacimiento" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="paterno">CURP:</label>
+                <input required type="text" id="curp" name="curp" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="sexo">Sexo</label>
+              <select name="sexo" required class="form-control" id="sexo">
+                <option value="" >Seleccionar...</option>
+                <option>Masculino</option>
+                <option>Femenino</option>
+                <option>Otro</option>
+              </select>
+            </div>
+            <div class="form-group">
+                <label for="clave">Clave:</label>
+                <input required type="password" id="clave" name="clave" class="form-control">
+            </div>
+            
             <div class="text-right">
-                <button class="btn btn-primary">Enviar</button>
+                <button type="submit" class="btn btn-primary">Enviar</button>
             </div>
         </form>
     </div>

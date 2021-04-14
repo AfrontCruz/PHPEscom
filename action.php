@@ -1,6 +1,16 @@
 <?php
+    require( './database/database.php');
     $nombre = $_POST['nombre'];
     $paterno = $_POST['paterno'];
+    $materno = $_POST['materno'];
+    $nacimiento = $_POST['nacimiento'];
+    $curp = $_POST['curp'];
+    $sexo = $_POST['sexo'];
+    $clave = $_POST['clave'];
+    $query = "CALL phpescom.sp_insert_usuario('$nombre','$paterno','$materno','$nacimiento','$curp','$sexo','$clave')";
+    $db = new database();
+    $db->obtenerConexion();
+    $result = $db->create( $query );
 ?>
 
 <!doctype html>
@@ -17,7 +27,10 @@
   </head>
   <body>
     <?php 
-        echo "<h1>Hola $nombre</h1>";
+        if( $result )
+          echo "<p>Registro éxitoso</p>";
+        else
+          echo "<p>No se ha insertado</p>";
     ?>
 
     <!-- Optional JavaScript -->
