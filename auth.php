@@ -12,7 +12,7 @@
         echo "Autenticación exitosa";
         ?>
         <script>
-            setTimeout( () => { window.location.replace("/dashboard.php") }, 3000 );
+            setTimeout( () => { window.location.replace("/dashboard.php?curp=<?php echo $curp ?>" ) }, 1000 );
         </script>
 <?php
     }
