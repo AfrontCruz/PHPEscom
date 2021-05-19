@@ -8,10 +8,26 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Inicio</title>
+    <title>Nuevo cuestionario</title>
   </head>
   <body>
     <?php include('./componente/barra.php'); ?>
+
+    <div class="container mt-5">
+        <form>
+            <div class="form-group">
+                <label for="nombre">Nombre: </label>
+                <input type="text" class="form-control" id="nombre" placeholder="Nombre del cuestionario">
+            </div>
+    
+            <div class="form-group">
+                <label for="clave">Clave: </label>
+                <input type="text" class="form-control" id="clave" placeholder="Clave del cuestionario">
+            </div>
+    
+            <button type="submit" class="btn btn-primary">Crear</button>
+        </form>
+    </div>
     
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
