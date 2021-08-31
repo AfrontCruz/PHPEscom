@@ -1,0 +1,8 @@
+{
+    "database":{
+        "user":"root",
+        "password":"root",
+        "server":"localhost",
+        "name":"casamayor"
+    }
+}

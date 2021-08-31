@@ -1,0 +1,6 @@
+{
+    "autentica":"CALL sp_select_user( '$1' )",
+    "autenticaSuccess":"UPDATE Usuario SET inicio = NOW(), intentos = 0 WHERE correo = '$1' or usuario = '$1'",
+    "autenticaFailed":"UPDATE Usuario SET intentos = intentos + 1 WHERE correo = '$1' or usuario = '$1'",
+    "autenticaLock":"UPDATE Usuario SET activo = 0 WHERE correo = '$1' or usuario = '$1'"
+}

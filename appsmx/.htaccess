@@ -1,0 +1,6 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([api]+)/([service|control]+)/([a-z]+)([/a-z]*) $1/$2/$3.php$4 [L,NC]

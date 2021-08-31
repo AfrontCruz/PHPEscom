@@ -1,0 +1,7 @@
+Clase,Inscripcion,
+Tipo,Nombre,C,R,U,PK
+string,clave,1,1,1,1
+string,correo,1,1,1,1
+string,fecha,1,1,1,0
+string,created,0,1,0,0
+string,updated,0,1,0,0

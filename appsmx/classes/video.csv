@@ -1,0 +1,9 @@
+Clase,Video,
+Tipo,Nombre,C,R,U,PK
+string,titulo,1,1,1,0
+string,id,1,1,1,1
+string,clave,1,1,1,1
+string,descripcion,1,1,1,0
+int,disponible,1,1,1,0
+string,created,0,1,0,0
+string,updated,0,1,0,0

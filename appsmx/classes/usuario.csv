@@ -1,0 +1,11 @@
+Clase,Usuario,,,,
+Tipo,Nombre,C,R,U,PK
+string,correo,1,0,0,1
+string,usuario,1,0,0,0
+string,clave,1,0,1,0
+string,tipo,0,0,1,0
+int,activo,0,0,1,0
+int,intentos,0,0,1,0
+string,inicio,0,1,0,0
+string,created,0,1,0,0
+string,updated,0,1,0,0

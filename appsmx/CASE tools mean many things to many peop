@@ -1,0 +1,37 @@
+CASE tools mean many things to many people. There is no well-accepted definition, but most
+commentators agree that they encompass all or some subset of the following features: for the frontend conceptual stages of systems development, such as analysis assistance, data modeling tools,
+data dictionaries, text and diagram editors (known colloquially as upper CASE); and for the backend implementation stages of systems development, such as screen/report design aids, code generators, testing and debugging tools (known colloquially as lower CASE) [Henderson &
+Cooprider 1988; Rochester 1989]. Some CASE tools are bundled together (with or without
+explicit integration) and sold as CASE packages or toolsets. There is currendy a wide range of
+CASE tool products being offered in the market (over 100 products have been estimated from as many vendors), varying from stand-alone first-generation tools (e.g., code generators, or diagramming aids) to integrated, second-generation toolsets (e.g., tool environments with
+centralized data dictionaries).
+
+-Translate-
+Las herramientas CASE significan muchas cosas para muchas personas. No existe una definición bien aceptada, pero la mayoría
+Los comentaristas están de acuerdo en que abarcan todas o algunas de las siguientes características: para las etapas conceptuales frontales del desarrollo de sistemas, como asistencia para el análisis, herramientas de modelado de datos,
+diccionarios de datos, editores de texto y diagramas (conocidos coloquialmente como MAYÚSCULAS); y para las etapas de implementación de backend del desarrollo de sistemas, como ayudas para el diseño de pantallas / informes, generadores de código, herramientas de prueba y depuración (conocidas coloquialmente como CASO inferior) [Henderson &
+Cooprider 1988; Rochester 1989]. Algunas herramientas CASE están empaquetadas (con o sin
+integración explícita) y se venden como paquetes CASE o conjuntos de herramientas. Actualmente existe una amplia gama de
+Los productos de herramientas CASE que se ofrecen en el mercado (se han estimado más de 100 productos de la misma cantidad de proveedores), que van desde herramientas independientes de primera generación (por ejemplo, generadores de códigos o ayudas para la creación de diagramas) hasta conjuntos de herramientas integrados de segunda generación (por ejemplo, entornos de herramientas con
+diccionarios de datos centralizados).
+
+----------------------------------------------------------------------
+
+CASE (Computer-Aided Software Engineering) tools have stirred great interest in the research and
+practitioner communities as potential means for easing the software development and maintenance
+burden threatening to overwhelm information systems departments. The actual impact of these
+tools on development and maintenance activity, cost, and duration in the long term, are as yet
+unclear. Nevertheless, it is evident from a few studies and commentaries [Orlikowski 1989;
+Norman and Nunamaker 1989] that these tools have engendered a number of changes in the
+culture, structure, and practices of information systems departments. The extent and nature of these
+changes, however, appear to vary across organizations and over time. As yet, there are no good
+explanations for these changes and their variations.
+
+- Translate -
+Herramientas CASE como innovaciones en el desarrollo de sistemas
+Este modelo más general de innovación en las organizaciones se puede aplicar a la instancia de CASE
+instrumentos. Las herramientas CASE están destinadas al trabajo de desarrollo de sistemas y proporcionan facilidades como
+ayudas de diagramación de diseño, generadores de código, repositorios, depuradores, etc. El objetivo - a juzgar por
+las afirmaciones de sus diseñadores: reducir el tiempo de desarrollo, mejorar la productividad, aumentar la coherencia,
+facilitar la reutilización del trabajo anterior y eliminar algunas de las tareas de desarrollo más tediosas. Estas
+Las instalaciones afectan de forma más obvia y directa a la ejecución de las tareas de desarrollo de sistemas.
